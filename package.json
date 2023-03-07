@@ -1,0 +1,14 @@
+{
+  "name": "test-cf-workers-aasets-change",
+  "private": "true",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "wrangler dev --local"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230228.0",
+    "@types/node": "^18.14.2",
+    "typescript": "^4.9.5",
+    "wrangler": "^2.12.0"
+  }
+}
