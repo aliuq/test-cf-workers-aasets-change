@@ -1,8 +1,5 @@
 import DemoHtml from './demo.html';
 
-// 1. pnpm run dev
-// 2. Update demo.html content and save it
-
 export default {
   async fetch(): Promise<Response> {
     return new Response(DemoHtml, {
